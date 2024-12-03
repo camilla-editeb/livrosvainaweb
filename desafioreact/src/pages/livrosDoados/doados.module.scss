@@ -1,0 +1,50 @@
+.doadosection{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    h2{
+        font-size: 32px;
+    }
+}
+
+.cardsdoados{
+    width: 95%;
+
+    section{
+        border: solid 3px #005695;
+        width: 18%;
+        height: 40vh;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        font-size: 80%;
+    }
+}
+
+@media (max-width:768px){
+    .doadossection{
+      align-items: center;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    .cardsdoados{
+        align-items: center;
+
+        section{
+          width: 80%;
+          height:50vh;
+          font-size: 90%;
+          align-items: center;
+          margin-left: 10%;
+        }
+    }
+}

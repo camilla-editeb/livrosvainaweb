@@ -1,0 +1,64 @@
+.sectiondoar{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    p{
+        font-size: 22px;
+    }
+}
+
+form{
+    border: solid 3px #005695;
+    border-radius: 20px;
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    div{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #005695;
+    }
+
+    input{
+        width: 90%;
+        height: 7vh;
+        border: solid;
+        border-radius: 15px;
+        color: #005695;
+    }
+
+}
+
+@media (max-width: 768px){
+    .sectiondoar{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+
+        p{
+            text-align: center;
+            font-size: 17px;
+            margin-top: 5%;
+        }
+    }
+
+    form{
+        width: 80%;
+        height: 65vh;
+    }
+    
+    .imgdoar{
+        height: 8vh;
+        width: 25%;
+    }
+}
+
