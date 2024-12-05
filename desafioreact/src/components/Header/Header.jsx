@@ -11,7 +11,7 @@ export default function Header(){
         <BrowserRouter>
             <header className={s.header}>
                 <section className={s.logoHeader}>
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="Logo de um livro aberto com cores azul, branco e preto" />
                     <h1>Livros Vai na Web</h1>
                 </section>
                 <nav className={s.navHeader}>

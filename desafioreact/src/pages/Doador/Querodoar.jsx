@@ -7,7 +7,7 @@ export default function QueroDoar(){
             <p>Por favor, preencha o formulário com suas informações e as informações do Livro</p>
             <form action="">
                 <div>
-                    <img className={s.imgdoar}  src={livro} alt="" />
+                    <img className={s.imgdoar}  src={livro} alt="icone de um livro azul vazado" />
                     <h2>Informações Do Livro</h2>
                 </div>
                 <input type="text" name="" id="" placeholder='Título' />

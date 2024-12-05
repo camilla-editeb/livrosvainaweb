@@ -11,11 +11,11 @@ export default function Footer(){
         <section className={s.contato}>
             <p>4002-8922</p>
             <nav>
-                 <a href=""><img src={facebook} alt="" /></a>
-                 <a href=""><img src={twitter} alt="" /></a>
-                 <a href=""><img src={youtube} alt="" /></a>
-                 <a href=""><img src={linkedlin} alt="" /></a>
-                 <a href=""><img src={instagram} alt="" /></a>
+                 <a href=""><img src={facebook} alt="Icone da rede social do facebook com um link de direcionamento para o perfil do Vai na web" /></a>
+                 <a href=""><img src={twitter} alt="Icone da rede social do twitter com um link de direcionamento para o perfil do Vai na web" /></a>
+                 <a href=""><img src={youtube} alt="Icone da rede social do youtube com um link de direcionamento para o perfil do Vai na web" /></a>
+                 <a href=""><img src={linkedlin} alt="Icone da rede social do linkedlin com um link de direcionamento para o perfil do Vai na web" /></a>
+                 <a href=""><img src={instagram} alt="Icone da rede social do instagram com um link de direcionamento para o perfil do Vai na web" /></a>
             </nav>
         </section>
         <section className={s.layout}>
