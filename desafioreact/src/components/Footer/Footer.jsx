@@ -3,7 +3,7 @@ import instagram from '../../assets/instagram.png'
 import facebook from '../../assets/facebook.png'
 import youtube from '../../assets/youtube.png'
 import twitter from '../../assets/twitter.png'
-import linkedlin from '../../assets/linkedlin.png'
+import linkedin from '../../assets/linkedin.png'
 
 export default function Footer(){
    return(
@@ -14,7 +14,7 @@ export default function Footer(){
                  <a href=""><img src={facebook} alt="Icone da rede social do facebook com um link de direcionamento para o perfil do Vai na web" /></a>
                  <a href=""><img src={twitter} alt="Icone da rede social do twitter com um link de direcionamento para o perfil do Vai na web" /></a>
                  <a href=""><img src={youtube} alt="Icone da rede social do youtube com um link de direcionamento para o perfil do Vai na web" /></a>
-                 <a href=""><img src={linkedlin} alt="Icone da rede social do linkedlin com um link de direcionamento para o perfil do Vai na web" /></a>
+                 <a href=""><img src={linkedin} alt="Icone da rede social do linkedin com um link de direcionamento para o perfil do Vai na web" /></a>
                  <a href=""><img src={instagram} alt="Icone da rede social do instagram com um link de direcionamento para o perfil do Vai na web" /></a>
             </nav>
         </section>
