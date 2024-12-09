@@ -23,7 +23,7 @@ export default function Header(){
                 </nav>
                 <section className={s.barradeBusca}>
                     <input type="search" name="" id="" placeholder="O que você quer?" />
-                    <button><img className={s.lupa} src={lupa} alt="" /></button>
+                    <button><img src={lupa} alt="icone de lupa para pesquisa na cor branco" /></button>
                 </section>
             </header>
             <Routes>

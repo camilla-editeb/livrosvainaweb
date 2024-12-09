@@ -1,4 +1,11 @@
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
 .header {
+
     background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
     display: flex;
     text-align: center;
@@ -49,16 +56,18 @@
 
     input {
         background-color: transparent;
-        border:none;
+        border: none;
         width: 60%;
 
         &::placeholder {
-            color: #fff;
+            color:#fff;
             font-size: 15px;
             text-decoration: none;
         }
     }
 }
+
+
 
 @media (max-width: 768px) {
     .header {
