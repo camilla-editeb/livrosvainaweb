@@ -10,7 +10,7 @@ export default function QueroDoar(){
     const [autor,setAutor] = useState("")
     const [image_url,setImage_url] = useState("")
 
-    const capturaTitulo = (e) =>{
+    const capturaTitulo =  (e) =>{
         setTitulo(e.target.value)
     }
 
